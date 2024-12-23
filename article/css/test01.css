@@ -1,0 +1,455 @@
+
+body {
+    font-family: 'NanumSquare', sans-serif;
+    background: #232323 url(../img/naver-bg.png);
+    background-position: center;
+    width: 100%;
+    color: #fff;
+}
+
+/* btn-style */
+.btn-style{
+    border:  1px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+}
+.btn-style.radius{
+    border-radius: 30px;
+}
+
+/* 헤더 랩 영역 */
+.wrap {
+    min-width: 1440px;
+    padding: 0 24px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+    position: fixed;
+}
+.header {
+    text-align: center;
+}
+.header h1 {
+    position: absolute;
+    left: 2%; 
+    top: 0;
+    font-size: 15px;
+    font-weight: 800;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.header h1 .logo {
+    width: 30px;
+    display: inline-block;
+    
+}
+.header h1 .logo_name {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.header .menu li {
+    display: inline;
+}
+.header .menu li a {
+    font-size: 18px;
+    padding: 0 25px;
+    color: #fff;
+    font-weight: 400;
+   
+}
+.header .menu li a:hover {
+    color: #19CF60;
+    font-weight: 700;
+}
+.header .login {
+    position: absolute;
+    right: 10%; 
+    top: 0;
+}
+
+.cont1 {
+    position: relative;
+    color: #fff;
+}
+.cont1 .title {
+    display: block;
+    position: absolute;
+    top: 265px;
+}
+.cont1 em {
+    position: absolute;
+    font-weight: 700;
+    font-size: 43px;
+    top: 480px;
+}
+.cont1 p {
+    position: absolute;
+    top: 550px;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+/*section*/
+.sliderType01 {
+    border-radius: 30px;
+}
+.swiper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 30px;
+    }
+.swiper-wrapper {
+    position: absolute;
+    margin-top: 800px;
+}
+.swiper-wrapper .swiper-slide:nth-child(1) {
+    background-image: url(../img/slidetype01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+.swiper-wrapper .swiper-slide:nth-child(2) {
+    background-image: url(../img/slidetype02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+.swiper-wrapper .swiper-slide:nth-child(3) {
+    background-image: url(../img/slidetype03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+.swiper-wrapper .swiper-slide:nth-child(4) {
+    background-image: url(../img/slidetype04.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+.swiper-wrapper .swiper-slide:nth-child(5) {
+    background-image: url(../img/slidetype05.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+.swiper-wrapper .swiper-slide:nth-child(6) {
+    background-image: url(../img/slidetype06.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+.swiper-slide .slide-inner {
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 30px;
+}
+.swiper-slide .slide-inner em {
+    font-size: 18px;
+    font-weight: 800;
+    padding-top: 100px;
+    color: rgba(255, 255, 255, 0.733);
+    display: block;
+    margin-bottom: 20px;
+}
+.swiper-slide .slide-inner h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.7;
+    /* text-indent: -8px; */
+    
+}
+.swiper-slide .slide-inner p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.swiper-pagination {
+    position: absolute;
+    left: 0 !important;
+    bottom: 35px;
+    transform: translateX(-50%);
+}
+.swiper-pagination .swiper-pagination-bullet {
+    width: 10px; height: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.507);
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 6px;
+    box-sizing: border-box;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.507);
+}
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+.swiper-button-prev {
+    width: 21px; height: 41px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translateY(-50%);
+    color: #fff;
+    margin-top: 500px;
+}
+.swiper-button-next {
+    width: 21px; height: 41px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+
+/* cardType */
+.cardType01 {
+    padding: 150px 0;
+}
+  
+.cardType01 .cardWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardType01 .cardWrap .contents {
+    width: 482px;
+}
+
+.cardType01 .cardWrap .contents .title {
+    display: block;
+    margin-bottom: 72px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: left;
+    color: #6D8BFF;
+}
+
+.cardType01 .cardWrap .content {
+    position: relative;
+}
+.cardType01 .cardWrap .content:hover img{
+    transform: scale(1.1);
+}
+
+.cardType01 .cardWrap .content1 {
+    height: 860px;
+}
+
+.cardType01 .cardWrap .content2 {
+    height: 560px;
+}
+
+.cardType01 .cardWrap .content3 {
+    margin-top: 35px;
+    height: 541px;
+}
+
+.cardType01 .cardWrap .contents .content {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 15px;
+    background-color: rgb(46, 46, 46);
+}
+
+.cardType01 .cardWrap .contents .content a {
+    display: block;
+    height: 100%;
+    }
+
+.cardType01 .cardWrap .contents .content .contentDesc {
+    padding: 52px 50px 0;
+}
+
+.cardType01 .cardWrap .contents .content .descTit {
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+}
+
+.cardType01 .cardWrap .contents .content .desc {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.cardType01 .cardWrap .contents .content .descLink {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #6D8BFF;
+}
+
+.cardType01 .cardWrap .contents .content img {
+    vertical-align: top;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.2s;
+}
+
+.cardType02 {
+    margin: 0 0 140px 0;
+  }
+  
+  
+.cardType02 .title {
+    display: block;
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 68px;
+    text-align: center;
+    color: #5cf0c6;
+}
+
+.cardType02 .cardWrap {
+    margin: 50px 0;
+}
+
+.cardType02 .contents {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    width: 482px;
+    height: 466px;
+    border-radius: 15px;
+}
+
+.cardType02 .contents:hover img {
+    transform: scale(1.1);
+}
+
+.cardType02 .cardWrap .section4-1 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #3BCA9C;
+}
+
+.cardType02 .cardWrap .section4-2 {
+    background-color: #5470f8;
+    margin-left: 32px;
+
+}
+
+.cardType02 .cardWrap .section4-3 {
+    background-color: #6452c7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 328px;
+    margin-top: 32px;
+}
+
+.cardType02 .cardWrap .contents .content {
+    padding: 50px 50px 0;
+}
+
+.cardType02 .cardWrap .contents img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+
+.cardType02 .cardWrap .section4-3 img {
+    left: auto;
+    bottom: 10px;
+    width: 609px;
+    height: 237px;
+}
+
+.cardType02 .cardWrap .contents .content em {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.cardType02 .cardWrap .contents .content strong {
+    display: block;
+    padding-top: 10px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #fff;
+}
+
+.cardType02 .cardWrap .contents .content span {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #d1ffe6;
+}
+
+.cardType03 {
+    padding: 135px 0;
+    box-sizing: border-box;
+    background-position: 50% 50%;
+    background-size: auto 100%;
+    text-align: center;
+}
+
+.cardType03 .title {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #fff;
+}
+
+.cardType03 a {
+    display: inline-block;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 80px;
+    width: 340px;
+    border-radius: 41px;
+    box-shadow: 0 10px 6px -10px rgb(0 0 0 / 6%);
+    background-color: #fff;
+}
+
+.cardType03 a:last-child {
+    background-color: #4b65f7;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.cardType03 a em {
+    font-weight: 800;
+}
+
+
+
+
